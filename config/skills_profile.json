@@ -1,0 +1,13 @@
+{
+  "_note": "Built from your CV (skills section AND experience bullets). Review it: add skills you genuinely have, remove any you don't. Names must match the skill list in src/jobwatch/skills.py.",
+  "have": [
+    "Java", "Python", "C++", "C#", "Spring Boot", "JavaScript", "TypeScript", "React", "Bootstrap", "CSS",
+    "YugabyteDB", "PostgreSQL", "Pinecone", "Redis", "Elasticsearch", "Liquibase", "Airflow",
+    "Terraform", "GCP", "Kubernetes", "Cloud Composer", "ArgoCD", "OAuth",
+    "Kafka", "GraphQL", "Debezium", "Apache Paimon", "Change data capture", "Data lake",
+    "Full-text search", "Vector search", "Distributed systems", "Observability", "Machine learning"
+  ],
+  "implies": {
+    "PostgreSQL": ["SQL"]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "title": {
+    "include": ["software engineer", "software developer", "sde", "swe", "backend", "back-end", "back end",
+                "platform", "infrastructure", "distributed", "site reliability", "sre", "devops", "cloud",
+                "data platform", "data infrastructure", "systems engineer", "systems software", "storage",
+                "database", "streaming", "reliability", "member of technical staff", "mts",
+                "staff engineer", "senior engineer", "engineer ii", "engineer iii", "engineer 2", "engineer 3"],
+    "exclude": ["intern", "internship", "junior", "graduate", "new grad", "entry level", "trainee", "associate",
+                "director", "vp", "vice president", "head of", "manager", "principal", "distinguished", "fellow",
+                "frontend", "front end", "front-end", "android", "ios", "mobile", "qa", "sdet", "quality", "test",
+                "data scientist", "scientist", "researcher", "designer", "sales", "marketing", "recruiter",
+                "recruiting", "support", "customer", "solutions", "technical writer", "finance", "legal",
+                "hardware", "asic", "rtl", "silicon", "firmware", "embedded", "verification", "physical design",
+                "analog", "fpga", "mechanical", "analyst", "consultant", "account"]
+  },
+  "locations": {
+    "india": {
+      "markers": ["india", "bengaluru", "bangalore", "hyderabad", "pune", "mumbai", "gurgaon", "gurugram",
+                  "noida", "delhi", "chennai", "kolkata", "ahmedabad", "kochi"],
+      "accept_cities": ["bengaluru", "bangalore", "hyderabad", "pune", "gurugram", "gurgaon", "noida",
+                        "delhi", "mumbai", "chennai"],
+      "accept_remote_india": true
+    },
+    "abroad": {
+      "enabled": true,
+      "require_relocation_signal": true,
+      "countries_allow": []
+    }
+  },
+  "experience": {
+    "min_years_acceptable": 3,
+    "max_years_required": 9
+  },
+  "settings": {
+    "max_enrich_per_company": 25,
+    "max_messages_per_run": 40,
+    "alert_after_failures": 3,
+    "min_required_match": 0.0,
+    "workers": 12,
+    "quiet_hours": {"enabled": true, "start": 23, "end": 7, "utc_offset_minutes": 330}
+  }
+}
